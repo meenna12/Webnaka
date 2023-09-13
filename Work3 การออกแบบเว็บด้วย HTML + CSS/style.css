@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Thai&family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Noto Serif Thai', serif;
+}
+
+
+nav {
+    background: #cb9043;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+
+.menu p {
+    margin-left: 1rem;
+}
+
+
+.photo {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+
+.photo img {
+    padding: 50px;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50rem;
+
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+   
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.head {
+    font-size: 30px;
+}
+
+.text {
+    font-size: 15px;
+}
+
+.card_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 10px rgba(255, 119, 0, 0.48);
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    height: 90%;
+    transition: 0.3s;
+}
+
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 10px rgba(255, 119, 0, 0.48);
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+
+
+.card:hover {
+    /* transform: scale(0.5); */
+    transform: scale(2);
+}
+
+
+.card-1:hover{
+    transform: scale(2);
+}
+
+
+.card_img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+
+
+/* .card img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50rem;
+    border: 1px solid red;
+} */
+
+
+
+
+
